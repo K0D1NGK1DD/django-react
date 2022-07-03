@@ -3,15 +3,16 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
-import Services from './components/Services'
+import Services from './components/Services';
 
 class App extends Component {
     render() {
         return (
             <div>
-                {/* <Navigation logoTitle="React Portfolio" /> */}
-                {/* <Header title="My Portfolio" button="Learn More"/> */}
+                <Navigation logoTitle="DJANGO REACT" />
+                <Header />
                 <Services />
+                
             </div>
         )
     }

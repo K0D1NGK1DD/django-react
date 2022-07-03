@@ -4,7 +4,7 @@ function Navigation(props) {
   const sections = ['Main', 'Archive', 'Bio', 'Blog', 'Connect'];
   const navLinks = sections.map( section => {
     return (
-      <li><a href={'#' + section }>{section}</a></li>
+      <li><a href={'/' + section }>{section}</a></li>
     )
   })
   return (
